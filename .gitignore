@@ -6,3 +6,5 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+await page.getByRole('button', { name: 'Add Module' }).click();
+await page.locator('.data-\\[state\\=open\\]\\:animate-in').first().click();
